@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <!-- ===== Favicon ===== -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <!-- ===== Main CSS File ===== -->
+    <link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+
+<body>
+    <main class="d-flex justify-cn align-cn bg-primary">
+        <section class="card" id="card">
+            <header>
+                <h1>Quote of the Day</h1>
+            </header>
+
+            <section class="content">
+                <div class="quote-area d-flex justify-cn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 21.429" class="quote-left">
+                        <path id="quote-left" d="M0,104.036A8.033,8.033,0,0,1,8.036,96h.536a2.143,2.143,0,1,1,0,4.286H8.036a3.752,3.752,0,0,0-3.75,3.75v.536H8.571a4.29,4.29,0,0,1,4.286,4.286v4.286a4.29,4.29,0,0,1-4.286,4.286H4.286A4.29,4.29,0,0,1,0,113.143v-9.107Zm17.143,0A8.033,8.033,0,0,1,25.179,96h.536a2.143,2.143,0,1,1,0,4.286h-.536a3.752,3.752,0,0,0-3.75,3.75v.536h4.286A4.29,4.29,0,0,1,30,108.857v4.286a4.29,4.29,0,0,1-4.286,4.286H21.429a4.29,4.29,0,0,1-4.286-4.286v-9.107Z" transform="translate(0 -96)" fill="#5372f0"/>
+                      </svg>
+                    <p class="quote" id="quote">
+                        The future belongs to those who believe in the beauty of their dreams.
+                    </p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 21.429" class="quote-right">
+                        <path id="quote-right" d="M30,109.393a8.033,8.033,0,0,1-8.036,8.036h-.536a2.143,2.143,0,1,1,0-4.286h.536a3.752,3.752,0,0,0,3.75-3.75v-.536H21.429a4.29,4.29,0,0,1-4.286-4.286v-4.286A4.29,4.29,0,0,1,21.429,96h4.286A4.29,4.29,0,0,1,30,100.286v9.107Zm-17.143,0a8.033,8.033,0,0,1-8.036,8.036H4.286a2.143,2.143,0,1,1,0-4.286h.536a3.752,3.752,0,0,0,3.75-3.75v-.536H4.286A4.29,4.29,0,0,1,0,104.571v-4.286A4.29,4.29,0,0,1,4.286,96H8.571a4.29,4.29,0,0,1,4.286,4.286v9.107Z" transform="translate(0 -96)" fill="#5372f0"/>
+                      </svg>                      
+                </div>
+
+                <div class="author d-flex align-cn">
+                    <span>--</span>
+                    <span class="name" id="authorName">Mary Kay Ash</span>
+                </div>
+            </section>
+
+            <footer class="d-flex align-cn">
+                <p>Copyright (c) 2024 <a href="https://www.linkedin.com/in/ibrahim3bdelnby/" target="_blank">@ibrahim3bdelnby</a></p>
+                <button onclick="generateQuotes()"><span>New Quote</span></button>
+            </footer>
+        </section>
+    </main>
+
+    <!-- ===== Main JavaScript File ===== -->
+    <script src="assets/JS/index.js"></script>
+</body>
+
+</html>
