@@ -1,4 +1,3 @@
-var card = document.getElementById("card")
 var quote = document.getElementById("quote");
 var author = document.getElementById("authorName");
 
@@ -42,7 +41,7 @@ var quoteList = [
     }
 ];
 
-let usedIndexes = [];
+var usedIndexes = [];
 
 var randomQuotes = function() {
 
